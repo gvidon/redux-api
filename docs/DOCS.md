@@ -618,7 +618,7 @@ function onEnter(state, replaceState, callback) {
 ```js
 import {actions} from "./rest";
 function onLeave(state, replaceState, cb) {
-  dispatch(rest.actions.entries.reset(cb));
+  dispatch(rest.actions.entries.reset('sync'));
 }
 
 ```
